@@ -1,48 +1,41 @@
-import { motion } from "framer-motion"
-
+// components/Credentials.js
 export default function Credentials() {
   return (
     <section className="credentials">
-      <h2>Meet Our Tutors</h2>
+      <h2 className="credentials-title">Meet Our Tutors</h2>
 
       <div className="credentials-grid">
-        <motion.div
-          className="credential-card"
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
-          <h3>Daniel Libin (Y13)</h3>
-          <p><strong>English Specialist</strong></p>
+        {/* English Tutor */}
+        <div className="credential-card">
+          <span className="badge">English Specialist</span>
+          <h3>Daniel Libin <small>(Year 13)</small></h3>
           <ul>
             <li>Passed the 11+</li>
-            <li>8 English Literature, 9 English Language</li>
-            <li>On track for A*AA at A-Level</li>
+            <li>Studying at a leading UK grammar school</li>
+            <li>Grade 9 English Language</li>
+            <li>Grade 8 English Literature</li>
+            <li>Predicted A*AA at A-Level in essay subjects</li>
             <li>Offers from Queen Mary & Warwick</li>
             <li>Aspiring Law Student</li>
           </ul>
-        </motion.div>
+        </div>
 
-        <motion.div
-          className="credential-card"
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.15 }}
-        >
-          <h3>Samuel Libin (Y11)</h3>
-          <p><strong>Maths Specialist</strong></p>
+        {/* Maths Tutor */}
+        <div className="credential-card">
+          <span className="badge maths">Maths Specialist</span>
+          <h3>Samuel Libin <small>(Year 11)</small></h3>
           <ul>
-            <li>11+ score over 360</li>
-            <li>Predicted all 9s at GCSE</li>
-            <li>GCSE Maths & Further Maths (Grade 9 track)</li>
-            <li>Top 8% UK Maths Challenge (Gold Awards)</li>
+            <li>11+ score of 360+</li>
+            <li>Studying at a leading UK grammar school</li>
+            <li>Predicted all Grade 9s at GCSE</li>
+            <li>On track for Grade 9 in GCSE Maths</li>
+            <li>Grade 9 in Further Mathematics</li>
+            <li>Top 8% nationally in UKMT challenges</li>
+            <li>Gold Awards in UKMT Junior & Intermediate</li>
           </ul>
-        </motion.div>
+        </div>
       </div>
     </section>
   )
 }
-
 
