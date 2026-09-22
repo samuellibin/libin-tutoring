@@ -1,31 +1,25 @@
 export default function Header() {
   return (
-    <header style={{
-      background: 'white',
-      borderBottom: '1px solid #E5E7EB',
-      padding: '20px 48px',
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center'
-    }}>
-      <h2 style={{
-        margin: 0,
-        fontWeight: 800,
-        letterSpacing: '-0.03em'
-      }}>
-        Libin Tutoring
-      </h2>
+    <header className="lt-header">
+      <div className="lt-header-inner">
+        <a href="/" className="lt-logo">
+          <span className="lt-logo-mark">L</span>
+          <span>
+            <strong>LIBIN</strong>
+            <small>TUTORING</small>
+          </span>
+        </a>
 
-      <nav style={{
-        display: 'flex',
-        gap: '28px',
-        fontWeight: 500,
-        color: '#334155'
-      }}>
-        <a href="#subjects">Subjects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+        <nav className="lt-nav">
+          <a href="#subjects">Subjects</a>
+          <a href="#tutors">Tutors</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" className="lt-header-cta">
+          Enquire
+        </a>
+      </div>
     </header>
   )
 }
-

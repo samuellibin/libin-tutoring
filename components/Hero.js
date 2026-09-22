@@ -1,53 +1,53 @@
+import Reveal from './Reveal'
+
 export default function Hero() {
   return (
-    <section style={{
-      background: 'linear-gradient(135deg, #020617, #0F172A)',
-      padding: '140px 32px',
-      textAlign: 'center'
-    }}>
-      <h1 style={{
-        fontSize: '3.3rem',
-        fontWeight: 800,
-        color: '#FFFFFF',   // 🔥 FORCE WHITE
-        maxWidth: '900px',
-        margin: '0 auto 26px',
-        letterSpacing: '-0.03em',
-        animation: 'fadeUp 0.8s ease-out forwards'
-      }}>
-        Specialist Maths & English Tutoring
-      </h1>
+    <section className="lt-hero">
+      <div className="lt-hero-glow lt-hero-glow-one" />
+      <div className="lt-hero-glow lt-hero-glow-two" />
 
-      <p style={{
-        fontSize: '1.15rem',
-        color: '#E5E7EB',
-        maxWidth: '620px',
-        margin: '0 auto 42px',
-        animation: 'fadeUp 1s ease-out forwards'
-      }}>
-        High-quality support for 11+, KS3 and GCSE students — structured, calm, and results-focused.
-      </p>
+      <div className="lt-hero-inner">
+        <Reveal>
+          <div className="lt-hero-eyebrow">
+            11+ · KS3 · GCSE · A LEVEL
+          </div>
+        </Reveal>
 
-      <a href="#contact">
-        <button style={{
-          background: '#F5C46B',
-          color: '#0F172A',
-          padding: '14px 42px',
-          borderRadius: '999px',
-          fontWeight: 700,
-          fontSize: '1rem',
-          animation: 'fadeUp 1.2s ease-out forwards',
-          cursor: 'pointer'
-        }}>
-          Enquire Now
-        </button>
-      </a>
+        <Reveal delay={100}>
+          <h1>
+            High-Achieving Tutors.
+            <span>Personalised Support.</span>
+          </h1>
+        </Reveal>
 
-      <style jsx>{`
-        @keyframes fadeUp {
-          from { opacity: 0; transform: translateY(22px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-      `}</style>
+        <Reveal delay={180}>
+          <p>
+            Specialist tutoring in Maths, English, Science, Politics and
+            Economics, delivered by academically high-achieving tutors.
+          </p>
+        </Reveal>
+
+        <Reveal delay={260}>
+          <div className="lt-hero-actions">
+            <a href="#subjects" className="lt-button lt-button-gold">
+              Explore Subjects
+            </a>
+
+            <a href="#tutors" className="lt-button lt-button-outline">
+              Meet Our Tutors
+            </a>
+          </div>
+        </Reveal>
+
+        <Reveal delay={340}>
+          <div className="lt-hero-strip">
+            <span>11+ Preparation</span>
+            <span>KS3 Support</span>
+            <span>GCSE Tuition</span>
+            <span>A Level Subjects</span>
+          </div>
+        </Reveal>
+      </div>
     </section>
   )
 }
