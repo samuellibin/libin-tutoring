@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://libin-tutoring.vercel.app/</loc>
+    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/11-plus-maths</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/11-plus-english</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/ks3-maths</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/ks3-english</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/gcse-maths</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/gcse-science</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/gcse-english</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/a-level-politics</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/a-level-economics</loc>
   </url>
 
 </urlset>
