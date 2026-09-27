@@ -3,43 +3,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/</loc>
+    <loc>https://libin-tutoring.vercel.app/</loc>
   </url>
 
   <url>
-    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/11-plus-maths</loc>
+    <loc>https://libin-tutoring.vercel.app/subjects/11-plus-maths</loc>
   </url>
 
   <url>
-    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/11-plus-english</loc>
+    <loc>https://libin-tutoring.vercel.app/subjects/11-plus-english</loc>
   </url>
 
   <url>
-    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/ks3-maths</loc>
+    <loc>https://libin-tutoring.vercel.app/subjects/ks3-maths</loc>
   </url>
 
   <url>
-    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/ks3-english</loc>
+    <loc>https://libin-tutoring.vercel.app/subjects/ks3-english</loc>
   </url>
 
   <url>
-    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/gcse-maths</loc>
+    <loc>https://libin-tutoring.vercel.app/subjects/gcse-maths</loc>
   </url>
 
   <url>
-    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/gcse-science</loc>
+    <loc>https://libin-tutoring.vercel.app/subjects/gcse-science</loc>
   </url>
 
   <url>
-    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/gcse-english</loc>
+    <loc>https://libin-tutoring.vercel.app/subjects/gcse-english</loc>
   </url>
 
   <url>
-    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/a-level-politics</loc>
+    <loc>https://libin-tutoring.vercel.app/subjects/a-level-politics</loc>
   </url>
 
   <url>
-    <loc>https://YOUR-VERCEL-DOMAIN.vercel.app/subjects/a-level-economics</loc>
+    <loc>https://libin-tutoring.vercel.app/subjects/a-level-economics</loc>
   </url>
 
 </urlset>
